@@ -9,12 +9,13 @@
 #wrapper {
   margin-top: 16px;
   margin-bottom: 16px;
+  
 }
 .main1{
 	font-size:12px;
 }
 body {
-	padding-top: 70px;
+	padding-top: 54px;
 }
 
 
@@ -36,8 +37,8 @@ body {
 }
 .white-text {
   color: white !important;
-  
-  
+
+   
 }
 #head{
 	background-color:white;
@@ -46,6 +47,7 @@ body {
 	background-color:rgb(233,235,238);
 	border-radius:3px;
 	width:50px;
+	height:29px;
 	margin-left:-10px;
 	
 }
@@ -57,6 +59,10 @@ body {
 	height:33px;
 	width:33px;	
 }
+#img2{
+	height:21px;
+	width:21px;
+}
 #deepak{
 	padding-left:0px;
 	padding-right:5px;
@@ -67,20 +73,36 @@ body {
 #badge-a{
 	background-color:#e9ebee;
 	color:gray;
-	padding-left:40px;
+	padding-left:45px;
+	font-size:12px;
 }
 #badge-b{
 	background-color:#e9ebee;
 	color:gray;
-	padding-left:60px;
+	padding-left:65px;
+}
+#badge1{
+	color:white;
+	background-color:red;
+	
 }
 #newsfeed{
-	margin-left:9px;
+	margin-left:8px;
 	color:black;
+	padding-bottom:0px;
 }
 #newsfeed1{
 	margin-left:9px;
 	color:#3B5998;
+	
+}
+#newsfeed2{
+	padding-top:0px ;
+	font-size:12px;
+	
+}
+#newsfeed3{
+	padding-top:0px;
 }
 .panel-body .glyphicon {
     margin-left: 10px;
@@ -211,6 +233,13 @@ button{
 }
 #form1{
 	width:500px;
+	height:29px;
+}
+#form2{
+	margin-top:5px;
+}
+.form2{
+	margin-top:5px;
 }
 #sidebar7{
 	font-size:12px;
@@ -255,4 +284,17 @@ button{
 #like5{
 	font-size:12px;
 	margin-left:10px;
+}
+#create1{
+	padding-left:0px;
+}
+#create2{
+	margin-left:-25px;
+	padding-top:0px;
+}
+#create3{
+	padding-top:0px;
+}
+#friendly{
+	padding-left:30px;
 }
