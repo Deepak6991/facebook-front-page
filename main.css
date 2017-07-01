@@ -74,7 +74,7 @@ body {
 	height:21px;
 	width:21px;
 }
-#head2{
+#deepak{
 	padding-left:0px;
 	padding-right:5px;
 }
@@ -399,4 +399,10 @@ color:gray;
 	border-color:#e9ebee;
 	width:250px;
 	
+}
+#like-comment{
+	color:rgb(60,63,69);
+}
+#like1{
+	padding-left:10px;
 }
