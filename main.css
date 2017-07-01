@@ -112,6 +112,16 @@ body {
 	font-size:12px;
 	
 }
+#news{
+	background-color:rgb(246,247,279);
+	padding-top:8px;
+	padding-bottom:8px;
+	padding-left:2px;
+	padding-right:12px;
+}
+#news1{
+	padding-left:42px;
+}
 
 #newsfeed3{
 	padding-top:0px;
@@ -374,6 +384,11 @@ color:gray;
 }
 #newsfeed1a{
 	padding-left:20px;
+	
+}
+#newsfeed1c{
+	
+	color:red;
 }
 #newsfeed2a{
 	padding-left:10px;
@@ -383,4 +398,5 @@ color:gray;
 	background-color:#e9ebee;
 	border-color:#e9ebee;
 	width:250px;
+	
 }
