@@ -57,12 +57,16 @@
                <li><a href="#" class="white-text"><span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span></a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle white-text" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
+          <ul class="dropdown-menu" id="drop-head">
+            <li><a href="#">Create Page</a></li>
+            <li><a href="#">Manage page</a></li>
+			<li><a href="#"><hr></a></li>
+            <li><a href="#">Create group</a></li>
+			<li><a href="#">New groups <span class="badge" id="head-badge">4</span></a></li>
+            <li><a href="#"><hr></a></li>
+            <li><a href="#">Activity Logs <span class="badge" id="head-badge">5</span></a></li>
+			<li><a href="#">Settings</a></li>
+			<li><a href="#">Logout</a></li>
           </ul>
         </li>
 		
@@ -80,7 +84,7 @@
 		  <div id="menu">
             <ul class="nav nav-pills nav-stacked">
              <li role="presentation"><a href="#" ><img src="https://scontent.fdel3-1.fna.fbcdn.net/v/t1.0-1/p160x160/18740299_1901363980088439_4234649174609181115_n.jpg?oh=dfe688911828936158f3e77eaf6ef65b&oe=59DF4E1A" id="img2"><span id="newsfeed">Deepak Kumar</span></a></li>
-             <li role="presentation"><a href="#" id="newsfeed2"><img src="https://mail.google.com/mail/u/1/?ui=2&ik=137222740e&view=fimg&th=15cee4c03ee78c68&attid=0.16&disp=inline&realattid=f_j4fvvo1h15&safe=1&attbid=ANGjdJ_JdXaSYLq_-mCaAVwG8w1kTzV8O4qHk-LM54XuMyR1rYa1knq7iU0Y4XDbh9qpDUOpRR9VBDP7p8GsTT4Oay7RmExwchyvp9wDA86vtZ-3VzSAeRnjVGDV36Y&ats=1498843413755&rm=15cee4c03ee78c68&zw&sz=w1366-h662" id="img2"><span id="newsfeed">News Feed</span></a></li>
+             <li role="presentation" ><a href="#" id="newsfeed2"><img src="https://mail.google.com/mail/u/1/?ui=2&ik=137222740e&view=fimg&th=15cee4c03ee78c68&attid=0.16&disp=inline&realattid=f_j4fvvo1h15&safe=1&attbid=ANGjdJ_JdXaSYLq_-mCaAVwG8w1kTzV8O4qHk-LM54XuMyR1rYa1knq7iU0Y4XDbh9qpDUOpRR9VBDP7p8GsTT4Oay7RmExwchyvp9wDA86vtZ-3VzSAeRnjVGDV36Y&ats=1498843413755&rm=15cee4c03ee78c68&zw&sz=w1366-h662" id="img2"><span id="newsfeed">News Feed</span></a></li>
              <li role="presentation"><a href="#"id="newsfeed2" ><img src="https://mail.google.com/mail/u/1/?ui=2&ik=137222740e&view=fimg&th=15cee4c03ee78c68&attid=0.15&disp=inline&realattid=f_j4fvvo1d14&safe=1&attbid=ANGjdJ_RIyVPY0e0ooF9FfN29NpvQ6VulwHomIVmJnw602Lxf9KffXINROx0bOvkwsDkwGhbf178zIIz80BxLQbngkFDoWk73YO4bk2AQXgWsVFokmFSh_0tRtBEBSE&ats=1498843413754&rm=15cee4c03ee78c68&zw&sz=w1366-h662" id="img2"><span id="newsfeed">Messenger</span></a></li>
             </ul>
             <ul class="nav nav-pills nav-stacked">
@@ -99,8 +103,27 @@
 			 
               
 			</ul>
+			
+			
+			<li class="dropdown" id ="newsfeed1a">
+          <a href="#" class="dropdown-toggle white-text" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="caret"></span></a>
+          <ul class="dropdown-menu" id="newsfeed4a">
+            <li role="presentation"><a href="#" id="newsfeed2"><img src="data:image/jpeg;base64,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" id="img2"><span id="newsfeed">Groups</span> <span class="badge" id="badge-b">4+</span></a></li>
+             <li role="presentation" ><a href="#" id="newsfeed2"><img src="http://appleposts.ru/_ld/1/104.jpeg" id="img2"><span id="newsfeed">Pages</span></a></li>
+			 <li role="presentation"><a href="#" id="newsfeed2"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlKzukN-jWdL8Dm6zOlie-vc0OR7UzAkyxz72-2vBg1pTV9YSn" id="img2"><span id="newsfeed">Friend list</span></a></li>
+			
+            <li><a href="#"><img src="https://i1.wp.com/www.thomashutter.com/wp-content/uploads/2011/01/event_icon.gif" id="img2">Create group</a></li>
+			
+            
+            <li role="presentation"><a href="#" id="newsfeed2"><img src="data:image/jpeg;base64,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" id="img2"><span id="newsfeed">Groups</span> <span class="badge" id="badge-b">4+</span></a></li>
+             <li role="presentation" ><a href="#" id="newsfeed2"><img src="http://appleposts.ru/_ld/1/104.jpeg" id="img2"><span id="newsfeed">Pages</span></a></li>
+			 <li role="presentation"><a href="#" id="newsfeed2"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlKzukN-jWdL8Dm6zOlie-vc0OR7UzAkyxz72-2vBg1pTV9YSn" id="img2"><span id="newsfeed">Friend list</span></a></li>
+          </ul>
+        </li><span id="newsfeed2a">see more</span>
+			
+			
                   <ul class="nav nav-tabs">
-				  <p class="list-heading" id="newsfeed3">CREATE</p>
+				  <p class="list-heading" id="newsfeed3a">CREATE</p>
 				  
                           <li role="presentation" ><a href="#" id="create3" >Advert</a></li>
                           <li role="presentation" id="create2"><a href="#" id="create3" >Page</a></li>
@@ -176,10 +199,10 @@
                   <div class="panel-footer">
 				  <div class="media">
 				<div class="media-left">
-				<a href="#"><img class="media-object" src="https://scontent-sin6-2.xx.fbcdn.net/v/t1.0-1/p100x100/18920626_1466823430044294_1947187935000837133_n.jpg?oh=bdd2e71000b21031d2a4d0be1bd4f3ae&oe=59D925C9" alt="..." id="img"></a>
+				<a href="#"><img class="media-object" src="https://scontent-sin6-2.xx.fbcdn.net/v/t1.0-1/c0.0.160.160/p160x160/19642574_1312675142184696_7980794918341016455_n.jpg?oh=e3cee9587e9e38fbcf58f42ccb0b5fd3&oe=59D3B2FC" alt="..." id="img"></a>
 			  </div>
                 <div class="media-body">
-		    <p class="comment"> <span><a href="#" id="like3"><b>Sarthak Batra</b> </a></span> Wow, that's really insightful!..... </p>
+		    <p class="comment"> <span><a href="#" id="like3"><b>Sanu Kumar</b> </a></span> Wow, that's really insightful!..... </p>
 			<div> 
 			<small><span> <a href="#" id="like4">Like </a></span> <span> <a href="#" id="like4">Comment </a></span> <i class="fa fa-thumbs-o-up" aria-hidden="true" id="like5"></i></small><span id="like5">1 hrs</span>
 			</div>
@@ -197,11 +220,11 @@
                  <div class="media">
   <div class="media-left">
     <a href="#">
-      <img class="media-object" src="https://scontent-sin6-2.xx.fbcdn.net/v/t1.0-1/p100x100/18920626_1466823430044294_1947187935000837133_n.jpg?oh=bdd2e71000b21031d2a4d0be1bd4f3ae&oe=59D925C9" alt="..." id="mind">
+      <img class="media-object" src="https://scontent-sin6-2.xx.fbcdn.net/v/t1.0-1/p100x100/14441110_1785926868349669_930501644116827951_n.jpg?oh=9d3ff80741b795771fd7fd162216e6ec&oe=5A086E0E" alt="..." id="mind">
     </a>
   </div>
   <div class="media-body">
-  <p class="comment"> <a href="#" id="like"><b>Sanat kumar</b> </a><span id="like2">added a new photo</span>  </p>
+  <p class="comment"> <a href="#" id="like"><b>Prem Kumar</b> </a><span id="like2">added a new photo</span>  </p>
   <div> 
 	<p><span> <a href="#" id="like1">47 min</a></span><span class="glyphicon glyphicon-globe" aria-hidden="true" id="sanat"></span></p>
 </div>
@@ -228,6 +251,61 @@
 				<a href="#"><img class="media-object" src="https://scontent-sin6-2.xx.fbcdn.net/v/t1.0-1/p100x100/18920626_1466823430044294_1947187935000837133_n.jpg?oh=bdd2e71000b21031d2a4d0be1bd4f3ae&oe=59D925C9" alt="..." id="img"></a>
 			  </div>
                 <div class="media-body">
+		    <p class="comment"> <span><a href="#" id="like3"><b>Sanat Kumar</b> </a></span> Wow, that's really insightful!..... </p>
+			<div> 
+			<small><span> <a href="#" id="like4">Like </a></span> <span> <a href="#" id="like4">Comment </a></span> <i class="fa fa-thumbs-o-up" aria-hidden="true" id="like5"></i></small><span id="like5">1 hrs</span>
+			</div>
+			
+			</div>
+	  </div>
+	  
+	  
+	  
+				  
+				  <div id="like"><img src="https://scontent.fdel3-1.fna.fbcdn.net/v/t1.0-1/p160x160/18740299_1901363980088439_4234649174609181115_n.jpg?oh=dfe688911828936158f3e77eaf6ef65b&oe=59DF4E1A" id="img">
+				 <input type="text" placeholder="Write a comment... " id="comment" ></div>
+				  </div>
+             </div>
+		<!---------------------------3rd------------------>	
+<!------------------------------------->
+  <div class="panel panel-default">
+              <div class="panel-heading" id="head">
+                 <div class="media">
+  <div class="media-left">
+    <a href="#">
+      <img class="media-object" src="https://scontent-sin6-2.xx.fbcdn.net/v/t1.0-1/p100x100/19429671_145378919363170_6304500897120643531_n.jpg?oh=0bb2db9ae446c0d756fb5684fa9a08e7&oe=59D070D5" alt="..." id="mind">
+    </a>
+  </div>
+  <div class="media-body">
+  <p class="comment"> <a href="#" id="like"><b>Nikita Singh</b> </a></p>
+  <div> 
+	<p><span> <a href="#" id="like1">47 min</a></span><span class="glyphicon glyphicon-globe" aria-hidden="true" id="sanat"></span></p>
+</div>
+    
+  </div>
+</div>
+
+
+              </div>
+                <div class="panel-body">
+                   
+				   <div class="embed-responsive embed-responsive-16by9 image-post">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ZpoEOWniKsY"></iframe>
+                   </div>
+
+                   
+
+                   <div>
+				      <span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Like</span></span>
+                      <span><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>Comment</span></span>
+                   </div>
+                </div>
+                  <div class="panel-footer">
+				  <div class="media">
+				<div class="media-left">
+				<a href="#"><img class="media-object" src="https://scontent-sin6-2.xx.fbcdn.net/v/t1.0-1/p100x100/18920626_1466823430044294_1947187935000837133_n.jpg?oh=bdd2e71000b21031d2a4d0be1bd4f3ae&oe=59D925C9" alt="..." id="img"></a>
+			  </div>
+                <div class="media-body">
 		    <p class="comment"> <span><a href="#" id="like3"><b>Sarthak Batra</b> </a></span> Wow, that's really insightful!..... </p>
 			<div> 
 			<small><span> <a href="#" id="like4">Like </a></span> <span> <a href="#" id="like4">Comment </a></span> <i class="fa fa-thumbs-o-up" aria-hidden="true" id="like5"></i></small><span id="like5">1 hrs</span>
@@ -239,8 +317,8 @@
 				  <div id="like"><img src="https://scontent.fdel3-1.fna.fbcdn.net/v/t1.0-1/p160x160/18740299_1901363980088439_4234649174609181115_n.jpg?oh=dfe688911828936158f3e77eaf6ef65b&oe=59DF4E1A" id="img">
 				 <input type="text" placeholder="Write a comment... " id="comment" ></div>
 				  </div>
-             </div>
-		<!---------------------------3rd------------------>	 
+             </div>	
+<!----------------------------------->		
 			 <div class="panel panel-default">
               <div class="panel-heading" id="head">
                  <div class="media">
@@ -262,7 +340,7 @@
               </div>
                 <div class="panel-body">
 				                    <div class="image-post">
-                                  <img src="http://www.folomojo.com/wp-content/uploads/2015/02/16/104.jpg" class="img-responsive" alt="Responsive image">
+                                  <img src="https://s-media-cache-ak0.pinimg.com/originals/87/30/b6/8730b62ee3e251551fcbd5aaa53bd914.jpg" class="img-responsive" alt="Responsive image">
                                    </div>
                    <div>
 				      <span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Like</span></span>
@@ -348,49 +426,165 @@
 		 <ul class="nav nav-tabs " role="tablist" id="sidebar3">
 		<li role="presentation" class="active" id="sidebar6"><a href="#top" aria-controls="home" role="tab" data-toggle="tab" id="sidebar4"><p>Trending</p></a></li>
         <li role="presentation" class="active" ><a href="#top" aria-controls="home" role="tab" data-toggle="tab" id="sidebar4"><span class="glyphicon glyphicon-new-window" aria-hidden="true" ></span></a></li>
-        <li role="presentation" id="sidebar5" ><a href="#politics" aria-controls="profile" role="tab" data-toggle="tab" id="sidebar4"><span class="glyphicon glyphicon-trash" aria-hidden="true" ></span></a></li>
-        <li role="presentation" id="sidebar5" ><a href="#sports" aria-controls="messages" role="tab" data-toggle="tab" id="sidebar4"><span class="glyphicon glyphicon-cd" aria-hidden="true" ></span></a></li>
-		<li role="presentation" id="sidebar5" ><a href="#sports" aria-controls="messages" role="tab" data-toggle="tab" id="sidebar4"><span class="glyphicon glyphicon-facetime-video" aria-hidden="true" ></span></a></li>
+        <li role="presentation" id="sidebar5" ><a href="#politics" aria-controls="profile" role="tab" data-toggle="tab" id="sidebar4"><i class="fa fa-flask" aria-hidden="true" id="sidebar-icon"></i></a></li>
+        <li role="presentation" id="sidebar5" ><a href="#sports" aria-controls="messages" role="tab" data-toggle="tab" id="sidebar4"><span class="glyphicon glyphicon-cd" aria-hidden="true" id="sidebar-icon"></span></a></li>
+		<li role="presentation" id="sidebar5" ><a href="#entertainment" aria-controls="messages" role="tab" data-toggle="tab" id="sidebar4"><span class="glyphicon glyphicon-facetime-video" aria-hidden="true" id="sidebar-icon" ></span></a></li>
     </ul>
     <!-- Tab panes -->
     <div class="tab-content">
         <div role="tabpanel" class="tab-pane active" id="top">
 									<div class="list-group " >
 							  <a href="#" class="list-group-item active " id="google">
-							<h4 class="list-group-item-heading" id="sidebar7"><span class="glyphicon glyphicon-send" aria-hidden="true" id="sidebar8" ></span><span id="sidebar9">Narendra Modi</span></h4></span>
+							<h4 class="list-group-item-heading" id="sidebar7"><span class="glyphicon glyphicon-send" aria-hidden="true" id="sidebar8" ></span><span id="sidebar9"><b>Narendra Modi</b></span></h4></span>
+								<p class="list-group-item-text"><span id="sidebar10">Narendra Damodardas Modi is an Indian politician who is the 14th Prime Minister of India ‑ cbsnews.com</span></p>
+							  </a>
+							</div>
+							
+							<div class="list-group " id="sidebar2" >
+							  <a href="#" class="list-group-item active " id="google">
+								<h4 class="list-group-item-heading" id="sidebar7"><span class="glyphicon glyphicon-send" aria-hidden="true" id="sidebar8" ></span><span id="sidebar9"><b>Sachin Tendulkar</b></span></h4></span>
+								<p class="list-group-item-text"><span id="sidebar10"> Harsha Bhogle's farewell letter to Sachin tendulkar ‑ cbsnews.com</span></p>
+							  </a>
+							</div>
+							
+							<div class="list-group "  id="sidebar2">
+							  <a href="#" class="list-group-item active " id="google">
+								<h4 class="list-group-item-heading" id="sidebar7"><span class="glyphicon glyphicon-send" aria-hidden="true" id="sidebar8" ></span><span id="sidebar9"><b>BCCI</b></span></h4></span>
+								<p class="list-group-item-text"><span id="sidebar10">Senate delays health care vote until after July 4 recess ‑ cbsnews.com</span></p>
+							  </a>
+							</div>
+         </div>
+		 
+        <div role="tabpanel" class="tab-pane" id="politics">
+		
+		<div class="list-group " >
+							  <a href="#" class="list-group-item active " id="google">
+							<h4 class="list-group-item-heading" id="sidebar7"><span class="glyphicon glyphicon-send" aria-hidden="true" id="sidebar8" ></span><span id="sidebar9"><b>Narendra Modi</b></span></h4></span>
+								<p class="list-group-item-text"><span id="sidebar10">Narendra Damodardas Modi is an Indian politician who is the 14th Prime Minister of India ‑ cbsnews.com</span></p>
+							  </a>
+							</div>
+							
+							<div class="list-group " id="sidebar2" >
+							  <a href="#" class="list-group-item active " id="google">
+								<h4 class="list-group-item-heading" id="sidebar7"><span class="glyphicon glyphicon-send" aria-hidden="true" id="sidebar8" ></span><span id="sidebar9"><b>Sachin Tendulkar</b></span></h4></span>
+								<p class="list-group-item-text"><span id="sidebar10"> Harsha Bhogle's farewell letter to Sachin tendulkar ‑ cbsnews.com</span></p>
+							  </a>
+							</div>
+							
+							<div class="list-group "  id="sidebar2">
+							  <a href="#" class="list-group-item active " id="google">
+								<h4 class="list-group-item-heading" id="sidebar7"><span class="glyphicon glyphicon-send" aria-hidden="true" id="sidebar8" ></span><span id="sidebar9"><b>BCCI</b></span></h4></span>
 								<p class="list-group-item-text"><span id="sidebar10">Senate delays health care vote until after July 4 recess ‑ cbsnews.com</span></p>
 							  </a>
 							</div>
 							
 							<div class="list-group " id="sidebar2" >
 							  <a href="#" class="list-group-item active " id="google">
-								<h4 class="list-group-item-heading" id="sidebar7"><span class="glyphicon glyphicon-send" aria-hidden="true" id="sidebar8"><span id="sidebar9">Sachin Tendulkar</span></h4>
+								<h4 class="list-group-item-heading" id="sidebar7"><span class="glyphicon glyphicon-send" aria-hidden="true" id="sidebar8" ></span><span id="sidebar9"><b>Sachin Tendulkar</b></span></h4></span>
+								<p class="list-group-item-text"><span id="sidebar10"> Harsha Bhogle's farewell letter to Sachin tendulkar ‑ cbsnews.com</span></p>
+							  </a>
+							</div>
+							
+							
+		
+		</div>
+        <div role="tabpanel" class="tab-pane" id="sports">
+		
+		<div class="list-group " >
+							  <a href="#" class="list-group-item active " id="google">
+							<h4 class="list-group-item-heading" id="sidebar7"><span class="glyphicon glyphicon-send" aria-hidden="true" id="sidebar8" ></span><span id="sidebar9"><b>Narendra Modi</b></span></h4></span>
+								<p class="list-group-item-text"><span id="sidebar10">Narendra Damodardas Modi is an Indian politician who is the 14th Prime Minister of India ‑ cbsnews.com</span></p>
+							  </a>
+							</div>
+							
+							<div class="list-group " id="sidebar2" >
+							  <a href="#" class="list-group-item active " id="google">
+								<h4 class="list-group-item-heading" id="sidebar7"><span class="glyphicon glyphicon-send" aria-hidden="true" id="sidebar8" ></span><span id="sidebar9"><b>Sachin Tendulkar</b></span></h4></span>
+								<p class="list-group-item-text"><span id="sidebar10"> Harsha Bhogle's farewell letter to Sachin tendulkar ‑ cbsnews.com</span></p>
+							  </a>
+							</div>
+							
+							<div class="list-group "  id="sidebar2">
+							  <a href="#" class="list-group-item active " id="google">
+								<h4 class="list-group-item-heading" id="sidebar7"><span class="glyphicon glyphicon-send" aria-hidden="true" id="sidebar8" ></span><span id="sidebar9"><b>BCCI</b></span></h4></span>
+								<p class="list-group-item-text"><span id="sidebar10">Senate delays health care vote until after July 4 recess ‑ cbsnews.com</span></p>
+							  </a>
+							</div>
+		
+		</div>
+		<div role="tabpanel" class="tab-pane" id="entertainment">
+		
+		<div class="list-group " >
+							  <a href="#" class="list-group-item active " id="google">
+							<h4 class="list-group-item-heading" id="sidebar7"><span class="glyphicon glyphicon-send" aria-hidden="true" id="sidebar8" ></span><span id="sidebar9"><b>Narendra Modi</b></span></h4></span>
+								<p class="list-group-item-text"><span id="sidebar10">Narendra Damodardas Modi is an Indian politician who is the 14th Prime Minister of India ‑ cbsnews.com</span></p>
+							  </a>
+							</div>
+							
+							<div class="list-group " id="sidebar2" >
+							  <a href="#" class="list-group-item active " id="google">
+								<h4 class="list-group-item-heading" id="sidebar7"><span class="glyphicon glyphicon-send" aria-hidden="true" id="sidebar8" ></span><span id="sidebar9"><b>Sachin Tendulkar</b></span></h4></span>
+								<p class="list-group-item-text"><span id="sidebar10"> Harsha Bhogle's farewell letter to Sachin tendulkar ‑ cbsnews.com</span></p>
+							  </a>
+							</div>
+							
+							<div class="list-group "  id="sidebar2">
+							  <a href="#" class="list-group-item active " id="google">
+								<h4 class="list-group-item-heading" id="sidebar7"><span class="glyphicon glyphicon-send" aria-hidden="true" id="sidebar8" ></span><span id="sidebar9"><b>BCCI</b></span></h4></span>
 								<p class="list-group-item-text"><span id="sidebar10">Senate delays health care vote until after July 4 recess ‑ cbsnews.com</span></p>
 							  </a>
 							</div>
 							
 							<div class="list-group "  id="sidebar2">
 							  <a href="#" class="list-group-item active " id="google">
-								<h4 class="list-group-item-heading" id="sidebar7"><span class="glyphicon glyphicon-send" aria-hidden="true" id="sidebar8"><span id="sidebar9">Bcci</span></h4>
+								<h4 class="list-group-item-heading" id="sidebar7"><span class="glyphicon glyphicon-send" aria-hidden="true" id="sidebar8" ></span><span id="sidebar9"><b>BCCI</b></span></h4></span>
 								<p class="list-group-item-text"><span id="sidebar10">Senate delays health care vote until after July 4 recess ‑ cbsnews.com</span></p>
 							  </a>
 							</div>
-         </div>
-        <div role="tabpanel" class="tab-pane" id="politics">2</div>
-        <div role="tabpanel" class="tab-pane" id="sports">3</div>
+							
+							<div class="list-group "  id="sidebar2">
+							  <a href="#" class="list-group-item active " id="google">
+								<h4 class="list-group-item-heading" id="sidebar7"><span class="glyphicon glyphicon-send" aria-hidden="true" id="sidebar8" ></span><span id="sidebar9"><b>BCCI</b></span></h4></span>
+								<p class="list-group-item-text"><span id="sidebar10">Senate delays health care vote until after July 4 recess ‑ cbsnews.com</span></p>
+							  </a>
+							</div>
+		
+		</div>
+		
     </div>
 		</div> 
+		
+		<div class="sidebar14">
+		<ul class="nav nav-pills">
+  <li role="presentation" ><a href="#" id="sidebar12"><b>Suggested Pages</b></a></li>
+  <li role="presentation" id="sidebar13"><a href="#">See All</a></li>
+  </ul>
+  <img src="https://scontent.fdel3-1.fna.fbcdn.net/v/t1.0-0/p296x100/18527562_1066874986746410_4125337419491234342_n.jpg?oh=36e57209905a007d2c14d3fcf9bc570d&oe=59C77930" id="sidebar15">
+  <p id="sidebar16"><a href="#"><b>Badbola</b></a><br><span id="sidebar17">Musician/band · 442 likes</span></br>
+  <span><a href="#">Atul</a> and <a href="#">4 other friends</a></span></br></p>
+  <p id="sidebar19"><button ><span class="glyphicon glyphicon-hand-right" aria-hidden="true" id="sidebar18"></span> Like Page</button>
+  </p>
+ </div>
+		 
+		 
+		 <div id="sidebar20"> 
+		 <p id="sidebar21">English(UK) <span><a href="#">हिन्दी</a> <span>.<span> <a href="#">English (US)</a> <span>.<span><a href="#">ਪੰਜਾਬੀ</a> <span id="sidebar-footer1"><button><span class="glyphicon glyphicon-plus" aria-hidden="true" id="sidebar-footer1"></span></button></span></p>
+		 </div>
+		 
+		 <p id="sidebar-footer2">Privacy · Terms · Advertising · AdChoices <span class="glyphicon glyphicon-play" aria-hidden="true"></span><br> Facebook &#169; 2017</p>
+		
+		
         </div>
 	  </div>
    <!---------------------sidebar  close--------------------------------------------------------------------->
-  <footer>
-  <ul class="nav nav-pills">
-  <li role="presentation "><a href="# ">About Us</a></li>
-      <li role="presentation "><a href="# ">Home</a></li>
-      <li role=" presentation "><a href="# ">Privacy</a></li>
-      <li role="presentation "><a href="# ">Advertising</a></li>
-      <li role="presentation "><a href="# ">Cookies</a></li>
-      <li role="presentation "><a href="# ">Ad Choices</a></li>
+  <footer >
+  <ul class="nav nav-pills" >
+  <li role="presentation " id="footer1"><a href="# ">About Us</a></li>
+      <li role="presentation " id="footer1"><a href="# ">Home</a></li>
+      <li role=" presentation " id="footer1"><a href="# ">Privacy</a></li>
+      <li role="presentation " id="footer1"><a href="# ">Advertising</a></li>
+      <li role="presentation " id="footer1"><a href="# ">Cookies</a></li>
+      <li role="presentation " id="footer1"><a href="# ">Ad Choices</a></li>
 </ul>
   </footer>
   </div>

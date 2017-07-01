@@ -51,6 +51,17 @@ body {
 	margin-left:-10px;
 	
 }
+#drop-head{
+	width:220px;
+	margin-top:5px;
+	font-size:12px;
+}
+#head-badge{
+	border-radius:0px;
+	background-color:rgb(196,210,231);
+	font-size:12;
+	margin-left:25px;
+}
 #img{
 	height:25px;
 	width:25px;	
@@ -101,8 +112,12 @@ body {
 	font-size:12px;
 	
 }
+
 #newsfeed3{
 	padding-top:0px;
+}
+#newsfeed3a{
+	padding-top:10px;
 }
 .panel-body .glyphicon {
     margin-left: 10px;
@@ -120,6 +135,7 @@ body {
 }
 #main::-webkit-scrollbar {
     display: none;
+	
 }
 #comment{
 	width:490px;
@@ -245,14 +261,58 @@ button{
 	font-size:12px;
 }
 #sidebar8{
-	color:blue;
+	color:#3B5998;
 }
 #sidebar9{
 	padding-left:10px;
-	color:blue;
+	color:#3B5998;
 }
 #sidebar10{
 	color:black;
+}
+#sidebar11{
+	margin-left:-40px;
+	margin-right:30px;
+}
+#sidebar12{
+	color:gray;
+	
+}
+#sidebar13{
+	float:right;
+}
+.sidebar14{
+background-color:white;
+margin-top:-10px;
+}
+#sidebar15{
+padding-left:10px;
+padding-right:10px;
+height:150px;
+width:260px;
+padding-bottom:10px;
+}	
+#sidebar16{
+padding-left:10px;
+font-size:13px;
+}	
+#sidebar17{
+	font-size:12px;
+color:gray;
+}	
+#sidebar18{
+	color:grey;
+}
+#sidebar19{
+	padding-bottom:10px;
+	padding-left:10px;
+	padding-top:0px;
+}
+#sidebar20{
+	background-color:white;
+}
+#sidebar21{
+	padding:10px 10px 10px 10px;
 }
 #icon{
 	color:rgb(235,189,70);
@@ -297,4 +357,30 @@ button{
 }
 #friendly{
 	padding-left:30px;
+}
+#sidebar-footer1{
+	float:right;
+}
+#sidebar-footer2{
+	padding-left:10px;
+	color:gray;
+}
+
+#footer1{
+	padding-top:110px;
+}
+#sidebar-icon{
+	color:gray;
+}
+#newsfeed1a{
+	padding-left:20px;
+}
+#newsfeed2a{
+	padding-left:10px;
+	color:#3B5998;
+}
+#newsfeed4a{
+	background-color:#e9ebee;
+	border-color:#e9ebee;
+	width:250px;
 }
