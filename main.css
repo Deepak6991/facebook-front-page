@@ -95,6 +95,9 @@ body {
 #badge1{
 	color:white;
 	background-color:red;
+	position:relative;
+	top:-12px;
+	border-radius:3px;
 	
 }
 #newsfeed{
