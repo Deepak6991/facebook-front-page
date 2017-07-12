@@ -74,7 +74,7 @@ body {
 	height:21px;
 	width:21px;
 }
-#deepak{
+#nav-bar{
 	padding-left:0px;
 	padding-right:5px;
 }
@@ -98,6 +98,7 @@ body {
 	position:relative;
 	top:-12px;
 	border-radius:3px;
+	
 	
 }
 #newsfeed{
@@ -382,12 +383,32 @@ color:gray;
 #footer1{
 	padding-top:110px;
 }
+#footer2{
+	float:right;
+}
 #sidebar-icon{
 	color:gray;
 }
 #newsfeed1a{
 	padding-left:20px;
 	
+}
+#birth{
+	color:hotpink;
+}
+#birth1{
+	margin-top:-7px;
+	padding-bottom:10px;
+}
+#birth2{
+	
+	padding-top:10px;
+}
+.birth3{
+	color:gray;
+}
+.birth4{
+	margin-left:6px;
 }
 #newsfeed1c{
 	
@@ -408,4 +429,7 @@ color:gray;
 }
 #like1{
 	padding-left:10px;
+}
+#birthday{
+	background-color:white;
 }
