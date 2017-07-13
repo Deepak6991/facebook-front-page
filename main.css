@@ -97,8 +97,9 @@ body {
 	background-color:red;
 	position:relative;
 	top:-12px;
+	left:-4px;
 	border-radius:3px;
-	
+	width:10px;
 	
 }
 #newsfeed{
@@ -432,4 +433,79 @@ color:gray;
 }
 #birthday{
 	background-color:white;
+}
+#nav-badge{
+	position:relative;
+	right:3px;
+}
+@media (max-width: 500px) {
+	#form1{
+	width:200px;
+	height:29px;
+}
+#search-icon{
+	background-color:rgb(233,235,238);
+	border-radius:3px;
+	width:50px;
+	height:29px;
+	
+	position:relative;
+	top:-39px;
+	left:205px;
+	
+}
+#nav-bar{
+	padding-left:10px;
+	padding-right:5px;
+}
+.navmedia{
+	position:relative;
+	top:-40px;
+	right:-30px;
+}
+#navmedia1{
+	position:relative;
+	top:-80px;
+	right:-84px;
+}
+#navmedia2{
+	position:relative;
+	top:-120px;
+	right:-134px;
+}
+#navmedia3{
+	position:relative;
+	top:-160px;
+	right:-170px;
+}
+#navmedia4{
+	position:relative;
+	top:-200px;
+	right:-220px;
+}
+#navmedia5{
+	position:relative;
+	top:-240px;
+	right:-255px;
+}
+#navmedia6{
+	position:relative;
+	top:-280px;
+	right:-290px;
+}
+#feelmedia{
+	position:relative;
+	top:20px;
+}
+#inpt{
+	border:solid white;
+	font-size:15px;
+	display:inline;
+	width:200px;
+}
+#comment{
+	width:250px;
+	border-color:light-gray;
+	height:30px;
+}
 }
