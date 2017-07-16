@@ -514,4 +514,13 @@ color:gray;
 .extra-post{
 	visibility: hidden;
 }
+.photo-video{
+	padding-left:85px;
+	position:relative;
+	top:20px;
+	left:-56px;
+}
+.photo-video1{
+	margin-left:50px;
+}
 }
