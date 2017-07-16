@@ -381,7 +381,7 @@ color:gray;
 	color:gray;
 }
 
-#footer1{
+.footer1{
 	padding-top:110px;
 }
 #footer2{
@@ -508,4 +508,11 @@ color:gray;
 	border-color:light-gray;
 	height:30px;
 }
+#media-footer{
+	visibility: hidden;
+}
+.footer1{
+	padding-top:40px;
+}
+
 }
