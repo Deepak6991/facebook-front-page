@@ -524,3 +524,11 @@ color:gray;
 	margin-left:50px;
 }
 }
+#logo-image{
+	height:33px;
+	width:33px;
+	position:relative;
+	top:-5px;
+	left:25px;
+	
+}
