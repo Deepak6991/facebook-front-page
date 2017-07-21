@@ -26,8 +26,8 @@ body {
 }
 
 #main,
-#menu,
-#sidebar { background-color: #e9ebee;
+#menu,                                   /*background color of all these three class is same*/
+#sidebar { background-color: #e9ebee;   
 
  }
 #header {
@@ -35,7 +35,7 @@ body {
     color: white;
 	
 }
-.white-text {
+.white-text {                              /*color of content of header navbar is white for all*/
   color: white !important;
 
    
@@ -51,12 +51,12 @@ body {
 	margin-left:-10px;
 	
 }
-#drop-head{
+#drop-head{    /* change the style of dropdown menu use in header navbar*/
 	width:220px;
 	margin-top:5px;
 	font-size:12px;
 }
-#head-badge{
+#head-badge{   /* change the style of badge use in header navbar*/
 	border-radius:0px;
 	background-color:rgb(196,210,231);
 	font-size:12;
@@ -79,20 +79,20 @@ body {
 	padding-right:5px;
 }
 .list-heading {
-    padding: 20px 15px 0 15px;
+    padding: 20px 15px 0 15px; /*changes in header of main content*/
 }
-#badge-a{
+#badge-a{                    /*badge for shortcut*/
 	background-color:#e9ebee;
 	color:gray;
 	padding-left:45px;
 	font-size:12px;
 }
-#badge-b{
+#badge-b{                 /*badge for EXPLORE*/
 	background-color:#e9ebee;
 	color:gray;
 	padding-left:65px;
-}
-#badge1{
+}  
+#badge1{                             
 	color:white;
 	background-color:red;
 	position:relative;
@@ -438,6 +438,9 @@ color:gray;
 	position:relative;
 	right:3px;
 }
+
+/*------------------------------------using media query for responsive page-------------------*/
+
 @media (max-width: 500px) {
 	#form1{
 	width:200px;
@@ -523,7 +526,11 @@ color:gray;
 .photo-video1{
 	margin-left:50px;
 }
+
 }
+
+/*-------------media query end-----*/
+
 #logo-image{
 	height:33px;
 	width:33px;
